@@ -1,6 +1,6 @@
 ## Front-end Boilerplate
 
-The purpose of this app is to put together a sensible default for producing very high quality front-end code, both from a presentation (SCSS) but mainly from a behaviour context (JavaScript and Angular).
+The purpose of this app is to put together a sensible default for producing high quality front-end code, both from a presentation (SCSS) but mainly from a behaviour context (JavaScript and Angular).
 
 From a build perspective there are several technologies involved:
 
