@@ -11,6 +11,7 @@
     "codestyle": "gulp codestyle",
     "test": "gulp test",
     "complexity": "gulp complexity",
+    "e2e": "gulp protractor",
     "docs": "./node_modules/doxx/bin/doxx --template ./docs/template.jade --source . --ignore node_modules,coverage,test,config,src/bower_components,gulp,.tmp --target docs",
     "scss-lint": "gulp scss-lint"
   },
@@ -85,6 +86,7 @@
     "codestyle",
     "complexity",
     "test",
+    "e2e",
     "docs"
   ]
 }
