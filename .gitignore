@@ -1,0 +1,9 @@
+node_modules
+dist
+.tmp
+.sass-cache
+src/bower_components
+coverage
+src/app/core/constant/config.constant.js
+npm-debug.log
+*.sublime-*
