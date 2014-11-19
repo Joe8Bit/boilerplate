@@ -2,7 +2,7 @@
 
 var gulp = require('gulp');
 var browserSync = require('browser-sync');
-var proxyMiddleware = require('./proxy');
+var proxyMiddleware = require('./proxy.gulp');
 var gutil = require('gulp-util');
 var modRewrite = require('connect-modrewrite');
 var $ = require('gulp-load-plugins')({
