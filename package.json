@@ -85,7 +85,7 @@
   "pre-commit": [
     "scss-lint",
     "hint",
-    "validate"
+    "validate",
     "codestyle",
     "complexity",
     "test",
