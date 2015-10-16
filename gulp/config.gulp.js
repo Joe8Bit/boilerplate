@@ -7,7 +7,7 @@ var gulp 		 		= require('gulp'),
 	replace 	 		= require('gulp-replace-task');
 
 gulp.task('config' ,function () {
-	gulp.src('./config/defaults.json')
+	return gulp.src('./config/defaults.json')
 		.pipe(gulpNgConfig('ConfigModule', require('../config/' + (process.env.NODE_ENV || 'development'))))
 		.pipe(rename('config.constant.js'))
 		.pipe(insert.prepend('/* jshint ignore:start */\n'))
